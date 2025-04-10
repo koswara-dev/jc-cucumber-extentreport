@@ -49,6 +49,7 @@ public class LoginTest {
         extentTest.log(LogStatus.PASS,"I should be redirected to dashboard page");
     }
 
+    // TCC.HR.002
     @Given("I am logout")
     public void i_am_logout(){
         dashboardPage.setLogoutBtn();
